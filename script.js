@@ -55,6 +55,7 @@ function playGame(userChoice){
                 userWin = false;
             }
         }
+        showWinner(userWin, compChoice, userChoice);
     }
 }
 
